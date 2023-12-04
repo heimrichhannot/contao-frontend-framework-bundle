@@ -31,6 +31,9 @@ class FrontendFrameworkHelper
     {
         if (!isset($this->theme)) {
             $pageModel = $this->utils->request()->getCurrentPageModel();
+            if (!$pageModel) {
+                return null;
+            }
             $pageModel->loadDetails();
 
             $layout = LayoutModel::findByPk($pageModel->layout);

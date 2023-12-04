@@ -23,7 +23,8 @@
     },
     "require": {
         "php": "^8.0",
-        "contao/core-bundle": "^4.13 || ^5.0"
+        "contao/core-bundle": "^4.13 || ^5.0",
+        "heimrichhannot/contao-utils-bundle": "^2.232 || ^3.0.0-beta"
     },
     "autoload": {
         "psr-4": {
