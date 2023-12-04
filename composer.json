@@ -1,0 +1,36 @@
+{
+    "name": "heimrichhannot/contao-frontend-framework-bundle",
+    "description": "This bundle allows to select a frontend framework in your theme.",
+    "keywords": [
+        "contao",
+        "frontend",
+        "framework",
+        "bootstrap"
+    ],
+    "type": "contao-bundle",
+    "homepage": "https://github.com/heimrichhannot/contao-frontend-framework-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Heimrich & Hannot",
+            "email": "digitales@heimrich-hannot.de",
+            "homepage": "https://www.heimrich-hannot.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/heimrichhannot/contao-frontend-framework-bundle/issues"
+    },
+    "require": {
+        "php": "^8.0",
+        "contao/core-bundle": "^4.13 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HeimrichHannot\\FrontendFrameworkBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "HeimrichHannot\\FrontendFrameworkBundle\\ContaoManager\\Plugin"
+    }
+}

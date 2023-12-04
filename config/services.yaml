@@ -1,0 +1,5 @@
+services:
+  HeimrichHannot\FrontendFrameworkBundle\:
+    resource: '../src/{DataContainer}/*'
+    autoconfigure: true
+    autowire: true
