@@ -3,3 +3,7 @@ services:
     resource: '../src/{DataContainer}/*'
     autoconfigure: true
     autowire: true
+
+  HeimrichHannot\FrontendFrameworkBundle\Helper\FrontendFrameworkHelper:
+    autowire: true
+    public: true
